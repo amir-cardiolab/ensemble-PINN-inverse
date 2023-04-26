@@ -1,3 +1,5 @@
+Codes and data for the paper Aliakbari et al. "Ensemble physics informed neural networks: A framework to improve inverse transport modeling in heterogeneous domains", Physocs of Fluids.
+
 # ensemble-PINN-inverse
 The ePINN approach utilizes an ensemble of parallel neural networks to tackle inverse problems. Each sub-network is initialized with a meaningful pattern of the unknown parameter, creating a foundation for a main neural network to be trained using PINN. In comparison, a traditional PINN simulation with random initialization was also employed to evaluate the convergence speed and accuracy of the two approaches.
 
